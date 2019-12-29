@@ -1,0 +1,36 @@
+<?php 
+
+include '../Config/DataBase.php';
+DataBase::connect()
+
+?>
+
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="Abainou Yasine">
+	<title> Gestion des PFE </title>
+	<link href="../../public/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../../public/css/portfolio-item.css" rel="stylesheet">
+	</head>
+<body>
+<header>
+	<?php include_once ("header.php");?>
+</header>
+<div class="container">
+<div class="row">
+	<p style="text-align: center;font-size: x-large" class="bg-danger"> Délai Expiré</p>
+	<p style="text-align: center"><img src="../../public/img/interdit.png"></p>
+</div>
+</div>
+<hr>
+<!-- Footer -->
+<footer>
+	<?php include_once ("footer.php");?>
+</footer>
+</body>
+</html>
+
